@@ -1,10 +1,10 @@
-name: Build with Google gcc and clang
+name: 2
 
 on:
   workflow_dispatch:
 jobs:
   building:
-    runs-on: ubuntu-20.04-2core 
+    runs-on: ubuntu-20.04-2-core 
     permissions:
       # Give the default GITHUB_TOKEN write permission to commit and push the
       # added or changed files to the repository.
