@@ -3,7 +3,6 @@ on: [push]
 jobs:
   check-bats-version:
     runs-on:
-      group: ubuntu-runner
       labels: ubuntu-20.04-16core
     steps:
       - uses: actions/checkout@v4
